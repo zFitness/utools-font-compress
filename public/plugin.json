@@ -1,6 +1,6 @@
 {
-  "main": "./dist/index.html",
-  "logo": "logo.jpg",
+  "main": "./index.html",
+  "logo": "logo.png",
   "development": {
     "main": "http://127.0.0.1:5173/"
   },

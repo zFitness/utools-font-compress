@@ -35,9 +35,11 @@ const ExportBtn: React.FC<Props> = ({ onChange }) => {
     if (fontParam.fontFile) {
       console.log(window.compress);
       console.log(fontParam.fontFile);
+      //@ts-ignore
       const path = fontParam.fontFile?.originFileObj?.path;
       const newPath = path.split(".")[0] + "_min";
       window.compress(fontParam.fontBuffer, fontParam.text, newPath, fontParam.types);
+      window.utools.showNotification('导出成功')
     }
   };
 
@@ -47,6 +49,7 @@ const ExportBtn: React.FC<Props> = ({ onChange }) => {
         className={styles.draggerWrapper}
         showUploadList={false}
         onChange={handleOnChange}
+        accept=".ttf"
       >
         {fontParam.fontFile ? (
           fontParam.fontFile.name

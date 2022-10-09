@@ -1,5 +1,5 @@
-// const fontCarrier = require("zm-font-carrier");
-const fontCarrier = require("font-carrier");
+const fontCarrier = require("zm-font-carrier");
+// const fontCarrier = require("font-carrier");
 
 /**
  *
