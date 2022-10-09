@@ -1,0 +1,37 @@
+{
+  "name": "plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "app": "../public/index.js",
+  "targets": {
+    "app": {
+      "source": "index.js",
+      "context": "node",
+      "sourceMap": false,
+      "includeNodeModules": true
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ../public/index.js && parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "font-carrier": "^0.2.0",
+    "fontkit": "^2.0.2",
+    "fontmin": "^0.9.9",
+    "ttf2woff2": "^4.0.5",
+    "wasm-ttf2woff": "^1.0.0",
+    "zm-font-carrier": "^0.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-esbuild": "^4.10.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

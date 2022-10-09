@@ -1,0 +1,19 @@
+.btnWrapper {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnWrapper > span {
+    flex: 1;
+    height: 100%;
+    margin-right: 8px;
+}
+
+.btn {
+    height: 100%!important;
+}
+.draggerWrapper {
+    background: #eeeeee!important;
+}

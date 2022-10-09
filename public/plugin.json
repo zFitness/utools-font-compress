@@ -1,0 +1,15 @@
+{
+  "main": "./dist/index.html",
+  "logo": "logo.jpg",
+  "development": {
+    "main": "http://127.0.0.1:5173/"
+  },
+  "preload": "./index.js",
+  "features": [
+    {
+      "code": "compress",
+      "explain": "字体压缩",
+      "cmds": ["字体", "压缩"]
+    }
+  ]
+}
