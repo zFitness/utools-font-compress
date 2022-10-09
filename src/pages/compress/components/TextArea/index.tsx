@@ -15,8 +15,8 @@ const TextArea: React.FC<Props> = ({ onChange }) => {
   return (
     <div className={styles.text}>
       <div className={styles.title}>
-        <span>Ant Design (success)</span>
-        <span>Ant Design (success)</span>
+        <span>文本片段</span>
+        <span>length: {fontParam.text.length}</span>
       </div>
       <Divider className={styles.divider} />
       <AntdTextArea
