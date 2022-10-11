@@ -1,0 +1,16 @@
+.app {
+    height: 100%;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.MuiBottomNavigationAction-root.Mui-selected {
+    color: #1890ff!important;
+}
+.app-content {
+    height: calc(100vh - 56px);
+}
