@@ -17,7 +17,7 @@ const { Text } = Typography;
 
 const Compress = () => {
   const [fontParam, setFontParam] = useState<FontParam>({
-    text: "",
+    text: localStorage.getItem('text') || '',
     fontFile: null,
     fontBuffer: null,
     types: defaultCheckedList,
@@ -49,6 +49,7 @@ const Compress = () => {
         <div className={styles.left}>
           <TextArea
             onChange={(text) => {
+              localStorage.setItem('text', text)
               setFontParam({
                 ...fontParam,
                 text,
