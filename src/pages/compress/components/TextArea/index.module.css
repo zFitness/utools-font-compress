@@ -1,5 +1,7 @@
 
 .text {
+    height: 0;
+    overflow: hidden;
     width: 100%;
     flex: 1;
     padding: 16px;

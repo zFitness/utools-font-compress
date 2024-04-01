@@ -27,6 +27,7 @@
 }
 .right {
     flex: 1;
+    overflow: scroll;
     padding: 16px;
     /* padding-top: 32px; */
     text-align: left;
