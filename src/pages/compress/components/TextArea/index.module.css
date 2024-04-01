@@ -2,6 +2,8 @@
 .text {
     height: 0;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     flex: 1;
     padding: 16px;
@@ -14,6 +16,8 @@
 
 .textarea {
     padding: 0!important;
+    flex: 1;
+    overflow: auto;
 }
 .title {
     display: flex;
